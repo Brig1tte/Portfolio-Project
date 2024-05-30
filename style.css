@@ -461,6 +461,7 @@ h3 {
 /* ----- CONTACT BOX ----- */
 .contact-info {
     position: relative;
+    left: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
