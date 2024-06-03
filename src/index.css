@@ -78,6 +78,8 @@ html {
   border-radius: 10px;
   cursor: pointer;
   transition: .4s;
+  display: flex;
+  align-items: center;
 }
 
 .btn>i {
@@ -217,10 +219,13 @@ nav {
 }
 
 .featured-name {
-  font-size: 50px;
+  font-size: 36px;
   font-weight: 600;
   color: var(--text-color-second);
   margin-block: 20px;
+  display: flex;
+  align-items: center;
+  min-height: 25vh;
 }
 
 .typedText {
@@ -250,7 +255,7 @@ nav {
 
 .social_icons {
   display: flex;
-  margin-top: 5em;
+  margin-top: 3em;
   gap: 30px;
 }
 
