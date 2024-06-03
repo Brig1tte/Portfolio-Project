@@ -17,13 +17,13 @@ function Main() {
             </div>
             <div className="featured-text-info">
               <p>
-                "A software developer with a passion for creating visually
-                stunning and user-friendly websites. "
+                A software developer with a passion for creating visually
+                stunning and user-friendly websites.
               </p>
             </div>
             <div className="featured-text-btn">
               <button className="btn">
-                "Download CV "
+                Download CV
                 <a
                   href="https://docs.google.com/document/d/1e8DlHRoZetHkk_J8KT6kEeIdRQdH79oYvO3MI7gKEX0/edit?usp=sharing"
                   target="_blank"
@@ -93,15 +93,15 @@ function Main() {
               <div className="about-info">
                 <h3>Introduction</h3>
                 <p>
-                  "I am well-versed in HTML, CSS and JavaScript, as well as
-                  other cutting edge frameworks and libraries, which allows me
-                  to implement interactive features. Additionally, I have
+                  I am well-versed in HTML, CSS and JavaScript, as well as other
+                  cutting edge frameworks and libraries, which allows me to
+                  implement interactive features. Additionally, I have
                   experience working with content management systems (CMS) like
-                  WordPress. "
+                  WordPress.
                 </p>
                 <div className="about-btn">
                   <button className="btn">
-                    "Download CV "
+                    Download CV
                     <a
                       href="https://docs.google.com/document/d/1e8DlHRoZetHkk_J8KT6kEeIdRQdH79oYvO3MI7gKEX0/edit?usp=sharing"
                       target="_blank"
