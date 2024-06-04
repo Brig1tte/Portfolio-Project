@@ -16,7 +16,6 @@ code {
 }
 
 
-
 /* ----- VARIABLES ----- */
 :root {
   --body-color: rgb(250, 250, 250);
@@ -223,9 +222,6 @@ nav {
   font-weight: 600;
   color: var(--text-color-second);
   margin-block: 20px;
-  display: flex;
-  align-items: center;
-  min-height: 25vh;
 }
 
 .typedText {
