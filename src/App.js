@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import ScrollReveal from "scrollreveal";
 
 function App() {
+  /* ----- TYPING EFFECT ----- */
   useEffect(() => {
     const typed = new Typed(".typedText", {
       strings: ["FrontEnd Developer", "Customer Relations Exec."],
@@ -21,6 +22,7 @@ function App() {
     };
   }, []);
 
+  /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
   const sr = ScrollReveal({
     origin: "top",
     distance: "80px",
@@ -42,6 +44,9 @@ function App() {
   /* -- HEADINGS -- */
   sr.reveal(".top-header", {});
 
+  /* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
+
+  /* -- ABOUT INFO & CONTACT INFO -- */
   const srLeft = ScrollReveal({
     origin: "left",
     distance: "80px",
