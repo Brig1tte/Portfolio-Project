@@ -5,6 +5,7 @@ function Header() {
   const [navState, setNavState] = useState("nav-menu");
   const [navHeaderStyle, setNavHeaderStyle] = useState({});
 
+  /* ----- NAVIGATION BAR FUNCTION ----- */
   function myMenuFunction() {
     if (navState === "nav-menu") {
       setNavState("nav-menu responsive");
@@ -13,6 +14,7 @@ function Header() {
     }
   }
 
+  /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   useEffect(() => {
     const handleScroll = (event) => {
       if (
@@ -32,6 +34,7 @@ function Header() {
         });
       }
 
+      /* ----- CHANGE ACTIVE LINK ----- */
       const scrollY = window.scrollY;
 
       const sections = document.querySelectorAll("section[id]");
@@ -64,7 +67,7 @@ function Header() {
       <nav id="header" style={navHeaderStyle}>
         <div className="logo">
           <p className="nav-name">Brigitte</p>
-          <span>.</span>
+          <span></span>
         </div>
         <div className={navState} id="myNavMenu">
           <ul className="nav_menu_list">
